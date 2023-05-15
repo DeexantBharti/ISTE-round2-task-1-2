@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+*{
+    margin : 0; 
+    padding : 0;
+}
+header{
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    
+
+}
+.logo{
+    width: 56px;
+    padding: 0 16px;
+}
+.istelogo img{
+    float: left;
+    margin-right: 56px;
+    width: 55px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 12vh;
+}
+.btn{
+    width: 240px;
+    height: 20px;
+    border: 3px white solid;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+
+}
+nav ul{
+    display: flex;
+    padding: 13px;
+    align-items: center;
+    font-family: 'kanit',sans-serif;
+
+}
+nav ul li{
+    padding: 0 30px;
+    
+}
+nav ul li :hover{
+    border: 2px white solid;
+    border-radius: 6px;
+    font-weight: bolder;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+main{
+
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.415);
+    overflow: hidden;
+    height: 130vh;
+    background-attachment: fixed;
+}
+.heading{
+    font-family: 'Roboto-slab', cursive;
+    text-align: center;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.container{
+    font-family: 'kanit', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    /* display: flex;
+    justify-content: center; */
+    color: white;
+    width: 80vw;
+    margin: 0px auto;
+}
+.write{
+    background-color: rgba(16, 9, 9, 0.566);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px; 
+    box-shadow: 2px 1px 10px 10px rgba(255, 255, 255, 0.623);
+}
+.joinevent{
+    color: black;
+}
+.headin{
+    font-family: 'Kanit';
+    font-weight: bolder;
+}
+#red{
+    color: red;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 25vh;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'kanit',sans-serif;
+}
+.accounts{
+    margin-top: 5px;
+    display: flex;
+    gap: 5px;
+}
+.accounts a:hover{
+    box-shadow: 2px 1px 5px 5px white;
+}
+.foot a{
+    color: white;
+    text-decoration: none;
+}
+.foot a:hover{
+    color: red;
+    font-weight: bolder;
+}
+.container1{
+    background-color: rgba(68, 0, 255, 0.312);
+    width: 500px;
+    height: 200px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px 10px rgba(137, 43, 226, 0.561);
+  
+}
+.containerform{
+    display: grid;
+    grid-row-gap: 4px;
+    width: 300px;
+}
+.container input{
+    width: 300px;
+    height: 30px;
+    background-color: rgba(125, 45, 19, 0.734);
+    border-radius: 8px;
+    margin: 0 auto;
+}
+::placeholder{
+    color: rgb(0, 208, 255);
+    font-weight: bolder;
+    font-family: 'kanit', cursive;
+}
+.btn{
+    margin-top: 10px;
+    width: 110px;
+    height: 29px;
+    background-color: aquamarine;
+    color: green;
+    font-family: "kanit", cursive;
+    font-weight: bolder;
+}
+.btn:hover{
+    cursor: pointer;
+    color: red;
+    background-color: black;
+}
+
+.head{
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+}
+.main{
+    height: 70vh;
+}
+.containcontact{
+    background-color: rgba(0, 0, 0, 0.355);
+    margin: 50px auto;
+    width: 600px;
+    height: 250px;
+    box-shadow: 2px 2px 10px 10px cyan;
+    border-radius: 10px;
+    padding: 20px;
+}
+.say{
+    font-family: cursive;
+}
+.box{
+    width: 600px;
+    background-color: aqua;
+    height: 1240px;
+    margin: 20px auto;
+    padding: 34px;
+    border-radius: 45px;
+    box-shadow: 2px 2px 10px 10px black;
+    
+    font-family: 'Roboto-slab', cursive;
+}
+.box .faq{
+    display: flex;
+    justify-content: center;
+}
+.summary{
+    
+    font-size: 20px;
+    font-family: 'Roboto-slab', cursive;
+    letter-spacing: 1px;
+}
+details{
+    background-color: rgba(0, 0, 0, 0.411);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.faqclass{
+    height: auto;
+}
+.summary:hover{
+    cursor: pointer;
+}
+.ans{
+    color: rgb(0, 255, 17);
+    font-family: 'Roboto-slab', cursive;
+    font-size: 14px;
+}
+::-webkit-details-marker{
+    float: left;
+}
+
+@media only screen and (max-width:795px) {
+    main{
+        background-color: pink;
+    }
+     .logo {
+        display: none;
+     }
+     .istelogo{
+        display: none;
+     }
+     main{
+        height: 80vh;
+     }
+     .containcontact{
+        width: 60vw;
+        overflow: hidden;
+     }
+     footer{
+        overflow: hidden;
+     }
+     .container1{
+        width: 50vw;
+        background-color: rgba(15, 15, 199, 0.44);
+     }
+     .container1 .containerform{
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     .box{
+        width: 80vw;
+     }
+     header{
+        width: 100vw;
+     }
+     footer{
+        width: 100vw;
+     }
+}
